@@ -33,3 +33,4 @@ pipenv run python generate-blurhash.py
   - `pipx run glitch_this -h`
   - `pipx run glitch_this -s output/output.jpg 2`
   - `pipx run glitch_this -c output/output.jpg 2` or `pipx run glitch_this -c output/output.jpg 2 -f`
+- https://github.com/delivrance/glitchart
