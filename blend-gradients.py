@@ -2,6 +2,8 @@
 # https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.blend
 # https://pillow.readthedocs.io/en/stable/reference/Image.html#PIL.Image.Image.resize
 # https://stackoverflow.com/a/50557495
+# https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html:
+# - FIND_EDGES for edge detection
 
 import glob
 
