@@ -6,6 +6,7 @@ name = "pypi"
 [packages]
 pillow = "==9.5.0"
 blurhash-python = "==1.2.0"
+pixelsort = "==1.0.1"
 
 [dev-packages]
 black = "==23.1.0"

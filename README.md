@@ -34,3 +34,14 @@ pipenv run python generate-blurhash.py
   - `pipx run glitch_this -s output/output.jpg 2`
   - `pipx run glitch_this -c output/output.jpg 2` or `pipx run glitch_this -c output/output.jpg 2 -f`
 - https://github.com/delivrance/glitchart
+- https://github.com/satyarth/pixelsort:
+  - https://pypi.org/project/pixelsort/
+  - `pipenv install pixelsort==1.0.1`
+  - https://github.com/satyarth/pixelsort#parameters
+  - `pipenv run python -m pixelsort output/output-121027l-6x6.jpg -o output/pixelsort_output-121027l-6x6.png -i random -c 20`
+  - `pipenv run python -m pixelsort output/output-121027l-6x6.jpg -o output/pixelsort_output-121027l-6x6.png -i edges -t .5`
+  - `pipenv run python -m pixelsort output/output-121027l-6x6.jpg -o output/pixelsort_output-121027l-6x6.png -i edges -t .4`
+  - `pipenv run python -m pixelsort output/output-121027l-6x6.jpg -o output/pixelsort_output-121027l-6x6.png -i edges -s saturation`
+- https://ffglitch.org/
+- https://github.com/rkargon/pixelsorter
+- https://github.com/osromusic/Glitch-Arts-Resources
