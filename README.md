@@ -14,7 +14,17 @@ export PIPENV_VENV_IN_PROJECT=1 && pipenv install --dev
 pipenv run python blend-gradients.py
 ```
 
+```bash
+pipenv run python generate-blurhash.py
+```
+
 ## Notes
 
 - `export PIPENV_VENV_IN_PROJECT=1 && pipenv --python 3.7`
 - `pipenv install Pillow==9.5.0 && pipenv install --dev black==23.1.0 mypy==1.1.1 ruff==0.0.259`
+- `pipenv --rm`
+- https://global.canon/en/c-museum/product/ef410.html
+- https://github.com/samuelcolvin/python-devtools
+- https://github.com/woltapp/blurhash-python
+- https://dubblefilm.com/blogs/noticias/the-queen-of-film-soups
+- `pipenv install blurhash-python==1.2.0`
