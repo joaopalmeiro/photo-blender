@@ -28,3 +28,8 @@ pipenv run python generate-blurhash.py
 - https://github.com/woltapp/blurhash-python
 - https://dubblefilm.com/blogs/noticias/the-queen-of-film-soups
 - `pipenv install blurhash-python==1.2.0`
+- https://github.com/TotallyNotChase/glitch-this:
+  - https://github.com/TotallyNotChase/glitch-this/wiki/Documentation:-The-commandline-script
+  - `pipx run glitch_this -h`
+  - `pipx run glitch_this -s output/output.jpg 2`
+  - `pipx run glitch_this -c output/output.jpg 2` or `pipx run glitch_this -c output/output.jpg 2 -f`
