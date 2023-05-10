@@ -26,7 +26,7 @@ if __name__ == "__main__":
                 output = Image.blend(photo, gradient, ALPHA)
 
                 output_suffix = gradient_path.stem
-                output_path = OUTPUT_FOLDER / f"output-{output_suffix}.jpg"
+                output_path = OUTPUT_FOLDER / f"output-{ALPHA}-{output_suffix}.jpg"
 
                 output.save(output_path)
 
