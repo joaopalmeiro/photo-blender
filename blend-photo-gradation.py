@@ -35,6 +35,6 @@ if __name__ == "__main__":
     output_data = photo_data * gradation_180_mask + gradient_data * (
         1 - gradation_180_mask
     )
-    Image.fromarray(output_data.astype(np.uint8)).save(OUTPUT_FOLDER / "output_180.jpg")
+    Image.fromarray(output_data.astype(np.uint8)).save(OUTPUT_FOLDER / "output-180.jpg")
 
     print("Done!")

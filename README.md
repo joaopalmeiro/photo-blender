@@ -50,3 +50,5 @@ pipenv run python generate-blurhash.py
 - https://github.com/rkargon/pixelsorter
 - https://github.com/osromusic/Glitch-Arts-Resources
 - `pipenv install numpy==1.21.6`
+- https://scikit-image.org/docs/stable/auto_examples/edges/plot_canny.html
+- https://docs.opencv.org/4.7.0/da/d22/tutorial_py_canny.html
