@@ -5,6 +5,7 @@
 # https://pillow.readthedocs.io/en/stable/reference/ImageFilter.html:
 # - FIND_EDGES for edge detection
 # https://docs.python.org/3.7/library/pathlib.html#pathlib.Path.glob
+# https://stackoverflow.com/questions/35374333/create-a-steganographically-hidden-image-with-pillow
 
 from pathlib import Path
 

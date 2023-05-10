@@ -45,3 +45,5 @@ pipenv run python generate-blurhash.py
 - https://ffglitch.org/
 - https://github.com/rkargon/pixelsorter
 - https://github.com/osromusic/Glitch-Arts-Resources
+- `pipenv install numpy==1.21.6`
+- https://note.nkmk.me/en/python-opencv-numpy-alpha-blend-mask/
