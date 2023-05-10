@@ -15,6 +15,10 @@ pipenv run python blend-gradients.py
 ```
 
 ```bash
+pipenv run python blend-photo-gradation.py
+```
+
+```bash
 pipenv run python generate-blurhash.py
 ```
 
@@ -46,4 +50,3 @@ pipenv run python generate-blurhash.py
 - https://github.com/rkargon/pixelsorter
 - https://github.com/osromusic/Glitch-Arts-Resources
 - `pipenv install numpy==1.21.6`
-- https://note.nkmk.me/en/python-opencv-numpy-alpha-blend-mask/
