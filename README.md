@@ -52,3 +52,7 @@ pipenv run python generate-blurhash.py
 - `pipenv install numpy==1.21.6`
 - https://scikit-image.org/docs/stable/auto_examples/edges/plot_canny.html
 - https://docs.opencv.org/4.7.0/da/d22/tutorial_py_canny.html
+- https://github.com/noelleleigh/glitch_me
+- https://www.pyinvoke.org/
+- https://github.com/daneah/pixelize + https://theorangeduck.com/page/generating-icons-pixel-sorting
+- https://moviebarcode.tumblr.com/

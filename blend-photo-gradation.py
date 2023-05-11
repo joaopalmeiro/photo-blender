@@ -30,11 +30,13 @@ if __name__ == "__main__":
         gradation_180_mask = gradation_180_mask / 255
 
     output_data = photo_data * gradation_mask + gradient_data * (1 - gradation_mask)
+    # output_data = np.sort(output_data, axis=0)
     Image.fromarray(output_data.astype(np.uint8)).save(OUTPUT_FOLDER / "output.jpg")
 
     output_data = photo_data * gradation_180_mask + gradient_data * (
         1 - gradation_180_mask
     )
+    # output_data = np.sort(output_data, axis=1)
     Image.fromarray(output_data.astype(np.uint8)).save(OUTPUT_FOLDER / "output-180.jpg")
 
     print("Done!")
