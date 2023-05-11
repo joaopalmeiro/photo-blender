@@ -22,6 +22,10 @@ pipenv run python blend-photo-gradation.py
 pipenv run python generate-blurhash.py
 ```
 
+```bash
+pipenv run python sort-pixels.py
+```
+
 ## Notes
 
 - `export PIPENV_VENV_IN_PROJECT=1 && pipenv --python 3.7`
@@ -54,5 +58,5 @@ pipenv run python generate-blurhash.py
 - https://docs.opencv.org/4.7.0/da/d22/tutorial_py_canny.html
 - https://github.com/noelleleigh/glitch_me
 - https://www.pyinvoke.org/
-- https://github.com/daneah/pixelize + https://theorangeduck.com/page/generating-icons-pixel-sorting
+- https://github.com/daneah/pixelize
 - https://moviebarcode.tumblr.com/
