@@ -60,3 +60,11 @@ pipenv run python sort-pixels.py
 - https://www.pyinvoke.org/
 - https://github.com/daneah/pixelize
 - https://moviebarcode.tumblr.com/
+- `IMG_4492.jpg`:
+  - First layer (Lightroom):
+    - `Light` > `Exposure` > `− 3,00`
+    - `Optics` > Enable `Remove Chromatic Aberration`
+    - `Geometry` > `Upright` > `Auto`
+  - Third layer (Lightroom):
+    - B&W
+    - `Effects` > `Texture` > `50`
