@@ -19,6 +19,10 @@ pipenv run python blend-photo-gradation.py
 ```
 
 ```bash
+pipenv run python blurify.py
+```
+
+```bash
 pipenv run python generate-blurhash.py
 ```
 

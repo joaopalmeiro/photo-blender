@@ -8,11 +8,11 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-PHOTO_FOLDER: Path = Path("output/")
-PHOTO_IMG: Path = PHOTO_FOLDER / "right-pixel-output-150x100.jpg"
+PHOTO_FOLDER: Path = Path("photos/")
+PHOTO_IMG: Path = PHOTO_FOLDER / "IMG_4492.jpg"
 
-GRADIENT_FOLDER: Path = Path("gradients/")
-GRADIENT_IMG: Path = GRADIENT_FOLDER / "135099l-6x6.png"
+GRADIENT_FOLDER: Path = Path("output/")
+GRADIENT_IMG: Path = GRADIENT_FOLDER / "blur-output.jpg"
 
 BASE_FOLDER: Path = Path("bases/")
 GRADATION_IMG: Path = BASE_FOLDER / "gradient.jpeg"
