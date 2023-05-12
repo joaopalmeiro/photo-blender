@@ -5,9 +5,10 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-OUTPUT_FOLDER: Path = Path("output/")
 PHOTO_FOLDER: Path = Path("photos/")
 PHOTO_IMG: Path = PHOTO_FOLDER / "IMG_4492.jpg"
+
+OUTPUT_FOLDER: Path = Path("output/")
 
 if __name__ == "__main__":
     with Image.open(PHOTO_IMG) as photo:

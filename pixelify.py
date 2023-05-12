@@ -24,9 +24,11 @@ if __name__ == "__main__":
 
         output = small_photo.resize(photo.size, Image.NEAREST)
 
-        output.save(
+        output_path = (
             OUTPUT_FOLDER / f"pixel-output-{resize_size[0]}x{resize_size[1]}.jpg"
         )
+        output.save(output_path)
+        print(f"Output: {output_path}")
 
         left_x = int(photo.width / 2)
         right_x = photo.width - left_x
@@ -41,13 +43,17 @@ if __name__ == "__main__":
         right_output = output.copy()
 
         left_output.paste(left_portion, left_coords)
-        left_output.save(
+        output_path = (
             OUTPUT_FOLDER / f"right-pixel-output-{resize_size[0]}x{resize_size[1]}.jpg"
         )
+        left_output.save(output_path)
+        print(f"Output: {output_path}")
 
         right_output.paste(right_portion, right_coords)
-        right_output.save(
+        output_path = (
             OUTPUT_FOLDER / f"left-pixel-output-{resize_size[0]}x{resize_size[1]}.jpg"
         )
+        right_output.save(output_path)
+        print(f"Output: {output_path}")
 
     print("Done!")

@@ -8,12 +8,15 @@ from pathlib import Path
 import numpy as np
 from PIL import Image
 
-PHOTO_FOLDER: Path = Path("photos/")
-PHOTO_IMG: Path = PHOTO_FOLDER / "IMG_4492.jpg"
+PHOTO_FOLDER: Path = Path("output/")
+PHOTO_IMG: Path = PHOTO_FOLDER / "right-pixel-output-150x100.jpg"
+
 GRADIENT_FOLDER: Path = Path("gradients/")
 GRADIENT_IMG: Path = GRADIENT_FOLDER / "135099l-6x6.png"
+
 BASE_FOLDER: Path = Path("bases/")
 GRADATION_IMG: Path = BASE_FOLDER / "gradient.jpeg"
+
 OUTPUT_FOLDER: Path = Path("output/")
 
 if __name__ == "__main__":
@@ -31,12 +34,16 @@ if __name__ == "__main__":
 
     output_data = photo_data * gradation_mask + gradient_data * (1 - gradation_mask)
     # output_data = np.sort(output_data, axis=0)
-    Image.fromarray(output_data.astype(np.uint8)).save(OUTPUT_FOLDER / "output.jpg")
+    output_path = OUTPUT_FOLDER / "output.jpg"
+    Image.fromarray(output_data.astype(np.uint8)).save(output_path)
+    print(f"Output: {output_path}")
 
     output_data = photo_data * gradation_180_mask + gradient_data * (
         1 - gradation_180_mask
     )
     # output_data = np.sort(output_data, axis=1)
-    Image.fromarray(output_data.astype(np.uint8)).save(OUTPUT_FOLDER / "output-180.jpg")
+    output_path = OUTPUT_FOLDER / "output-180.jpg"
+    Image.fromarray(output_data.astype(np.uint8)).save(output_path)
+    print(f"Output: {output_path}")
 
     print("Done!")

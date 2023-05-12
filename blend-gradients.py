@@ -12,7 +12,9 @@ from PIL import Image
 
 PHOTO_FOLDER: Path = Path("photos/")
 PHOTO_IMG: Path = PHOTO_FOLDER / "right-pixel-output-150x100.jpg"
+
 GRADIENT_FOLDER: Path = Path("gradients/")
+
 OUTPUT_FOLDER: Path = Path("output/")
 
 ALPHA: float = 0.3
