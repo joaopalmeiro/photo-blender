@@ -34,6 +34,10 @@ pipenv run python pixelify.py
 pipenv run python sort-pixels.py
 ```
 
+```bash
+pipenv run mypy .
+```
+
 ## Notes
 
 - `export PIPENV_VENV_IN_PROJECT=1 && pipenv --python 3.7`
@@ -76,3 +80,6 @@ pipenv run python sort-pixels.py
   - Third layer (Lightroom):
     - B&W
     - `Effects` > `Texture` > `50`
+- https://github.com/jkenlooper/pixsaw
+- https://github.com/typeshed-internal/stub_uploader/blob/main/data/changelogs/Pillow.md + https://pypi.org/project/types-Pillow/
+- `pipenv install --dev types-Pillow==9.5.0.4`
