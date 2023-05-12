@@ -23,6 +23,10 @@ pipenv run python generate-blurhash.py
 ```
 
 ```bash
+pipenv run python pixelify.py
+```
+
+```bash
 pipenv run python sort-pixels.py
 ```
 

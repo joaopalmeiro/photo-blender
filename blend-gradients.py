@@ -10,9 +10,8 @@ from pathlib import Path
 
 from PIL import Image
 
-# PHOTO_FOLDER: Path = Path("photos/")
-PHOTO_FOLDER: Path = Path("output/")
-PHOTO_IMG: Path = PHOTO_FOLDER / "output-180.jpg"
+PHOTO_FOLDER: Path = Path("photos/")
+PHOTO_IMG: Path = PHOTO_FOLDER / "pixel-output-150x100.jpg"
 GRADIENT_FOLDER: Path = Path("gradients/")
 OUTPUT_FOLDER: Path = Path("output/")
 
