@@ -3,11 +3,15 @@
 # https://gitlab.com/joaommpalmeiro/blurhashify/-/blob/main/blurhashify/cli.py
 # https://github.com/woltapp/blurhash-python#usage
 
+from pathlib import Path
+
 import blurhash
 from PIL import Image
 
-BASE_IMG: str = "bases/135099l.jpg"
-OUTPUT_FOLDER: str = "gradients"
+BASE_FOLDER: Path = Path("bases/")
+BASE_IMG: Path = BASE_FOLDER / "135628l.jpg"
+
+OUTPUT_FOLDER: Path = Path("gradients/")
 
 X_COMPONENTS: int = 6
 Y_COMPONENTS: int = 6
@@ -22,8 +26,11 @@ if __name__ == "__main__":
         print(f"BlurHash string: {hash}")
 
     output_img = blurhash.decode(hash, width=WIDTH, height=HEIGHT, punch=1)
-    output_img.save(
-        f"{OUTPUT_FOLDER}/135099l-{X_COMPONENTS}x{Y_COMPONENTS}.png", format="PNG"
-    )
+
+    output_prefix = BASE_IMG.stem
+    output_path = OUTPUT_FOLDER / f"{output_prefix}-{X_COMPONENTS}x{Y_COMPONENTS}.png"
+
+    output_img.save(output_path, format="PNG")
+    print(f"Output: {output_path}", end="\n" * 2)
 
     print("Done!")

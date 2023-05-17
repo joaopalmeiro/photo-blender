@@ -15,6 +15,10 @@ pipenv run python blend-gradients.py
 ```
 
 ```bash
+pipenv run python blend-multiple-gradients.py
+```
+
+```bash
 pipenv run python blend-photo-gradation.py
 ```
 

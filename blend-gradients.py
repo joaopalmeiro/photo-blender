@@ -11,7 +11,7 @@ from pathlib import Path
 from PIL import Image
 
 PHOTO_FOLDER: Path = Path("photos/")
-PHOTO_IMG: Path = PHOTO_FOLDER / "right-pixel-output-150x100.jpg"
+PHOTO_IMG: Path = PHOTO_FOLDER / "IMG_4492.jpg"
 
 GRADIENT_FOLDER: Path = Path("gradients/")
 
